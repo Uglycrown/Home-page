@@ -13,7 +13,7 @@ GoogleProvider({
 ],
 
 pages: {
-signIn: "/auth/signin"
+signIn: "https://insta-2-clone-theta.vercel.app/api/auth"
 },
 
 callbacks:{
