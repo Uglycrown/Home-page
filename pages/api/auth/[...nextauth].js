@@ -11,7 +11,7 @@ GoogleProvider({
 }),
 // ...add more providers here
 ],
-
+secret:process.env.NEXTAUTH_SECRET,
 pages: {
 signIn: "https://instagramclone-qcog3i780-uglycrown.vercel.app/api/auth",
 },
